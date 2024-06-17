@@ -1,8 +1,6 @@
 // como criar arquivos com nodejs
 const fs = require('fs'); // importa o módulo fs para manipular arquivos
 
-
-
 fs.writeFile('arquivo.txt','arquivo criado com nodejs usando fs.createFile',(err)=> {
     if(err) throw err;
     console.log('Arquivo criado com sucesso');
