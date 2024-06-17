@@ -1,0 +1,21 @@
+-- iniciando projeto nodejs
+
+o que é nodejs? muitos pensam que nodejs é uma linguagem de programação.
+mas não é. Nodejs é um ambiente de desenvolvimente que executa codigo JavaScript
+no lado servidor.
+
+para incializar um projeto nodejs, você precisar acessar a pasta o criar uma,
+e na pasta rodar o comando 'npm init' no terminal, esse comando irá criar a
+estrutura basica do projeto. Ao rodar o comando, você irá perceber que na raiz da
+pasta, foi criado um arquivo 'package.json', esse arquivo é essencial, pois conten todas
+as informações necessarias do projeto, como nome, versão, descrição, dependencias e etc...
+
+O que é npm? O npm é a sigla para Node Package Manager (Gerenciador de Pacotes do Node).
+É uma ferramenta que facilita a instalação, atualização e gerenciamento de bibliotecas e dependências
+em projetos JavaScript. O npm fornece um repositório online para a publicação de pacotes de código aberto
+para o Node.js e um utilitário de linha de comando que interage com este repositório.
+Quando você está desenvolvendo um projeto JavaScript, é muito provável que você precise usar código
+que outras pessoas escreveram. Este código pode ser uma biblioteca para interagir com um banco de dados,
+uma estrutura para ajudar a escrever código do lado do servidor, ou até mesmo funções comuns como
+manipulação de strings ou operações matemáticas. Em vez de ter que baixar manualmente e gerenciar essas
+ bibliotecas de código, o npm permite que você as instale com um simples comando: npm install <nome do pacote>.
