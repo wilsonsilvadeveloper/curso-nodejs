@@ -18,4 +18,8 @@ Quando você está desenvolvendo um projeto JavaScript, é muito provável que v
 que outras pessoas escreveram. Este código pode ser uma biblioteca para interagir com um banco de dados,
 uma estrutura para ajudar a escrever código do lado do servidor, ou até mesmo funções comuns como
 manipulação de strings ou operações matemáticas. Em vez de ter que baixar manualmente e gerenciar essas
- bibliotecas de código, o npm permite que você as instale com um simples comando: npm install <nome do pacote>.
+bibliotecas de código, o npm permite que você as instale com um simples comando: npm install <nome do pacote>.
+
+como executar um arquivo JavaScript no nodejs? atraves do terminal, acesse a pasta onde esta o 
+arquivo JavaScript, ex: 'cd nodejs-basico', e em seguida rode o comando 'node <nome do arquivo>',
+ex: 'node index.js'.
