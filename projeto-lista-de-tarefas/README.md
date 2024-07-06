@@ -38,6 +38,11 @@ Instale as dependências
 ```bash
   npm install
 ```
+Instale o nodemon
+
+```bash
+  npm install -g nodemon
+```
 
 Inicie o servidor
 
