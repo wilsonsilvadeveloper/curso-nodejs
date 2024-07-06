@@ -1,0 +1,17 @@
+Módulos em Node.js são arquivos JavaScript que encapsulam funcionalidades específicas e podem ser reutilizados
+em diferentes partes de um projeto. Eles permitem organizar e modularizar o código, facilitando a manutenção e
+o desenvolvimento de aplicações. Para criar um módulo em Node.js, você pode exportar funções, objetos ou variáveis
+usando a palavra-chave module.exports. Em seguida, você pode importar esses módulos em outros arquivos usando a função
+require. No node.js, alem de poder criar um modulo, podemos tambem importar modulos que já vem com o node.js;
+
+Ex: Importando um modulo
+    const moduloExemplo = require("./moduloExemplo.js);
+
+Ex: criando e exportando um modulo
+
+    function soma(x,y){
+        return x + y;
+    }
+
+    module.exports = soma;
+
