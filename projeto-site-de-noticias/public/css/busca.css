@@ -1,0 +1,7 @@
+body, html {
+    height: 100%;
+}
+
+section.outras-noticias {
+    height: 100dvh;
+}
