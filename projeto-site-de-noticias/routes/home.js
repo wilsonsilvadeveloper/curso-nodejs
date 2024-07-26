@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
                 categoria: val.categoria
             }));
 
-            let listPostsViews = await Posts.find({}).sort({ 'views': -1 }).limit(3).exec();
+            let listPostsViews = await Posts.find({}).sort({ 'views': -1 }).limit(5).exec();
             listPostsViews = listPostsViews.map((val) => ({
                 titulo: val.titulo,
                 slug: val.slug,

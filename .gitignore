@@ -4,3 +4,7 @@
 # Dependências
 node_modules/
 .env
+temp/*
+!temp/.gitignore
+/public/imgnews/*
+!public/imgnews/.gitignore
