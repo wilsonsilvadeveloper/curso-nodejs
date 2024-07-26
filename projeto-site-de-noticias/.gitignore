@@ -1,0 +1,7 @@
+# Ignorar todos os arquivos na pasta temp, exceto o .gitignore
+temp/*
+!temp/.gitignore
+
+# Ignorar todos os arquivos na pasta public/imgnews, exceto o .gitignore
+public/imgnews/*
+!public/imgnews/.gitignore
