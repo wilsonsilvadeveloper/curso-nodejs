@@ -5,3 +5,10 @@
 node_modules/
 .env
 
+# Ignora todos os arquivos na pasta imgnews, exceto o .gitignore
+projeto-site-de-noticias/public/imgnews/*
+!projeto-site-de-noticias/public/imgnews/.gitignore
+
+# Ignorar todos os arquivos na pasta temp, exceto o .gitignore
+projeto-site-de-noticias/temp/*
+!projeto-site-de-noticias/temp/.gitignore
