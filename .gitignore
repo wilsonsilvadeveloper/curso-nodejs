@@ -4,5 +4,4 @@
 # Dependências
 node_modules/
 .env
-temp/*
-/public/imgnews/* // 
+
